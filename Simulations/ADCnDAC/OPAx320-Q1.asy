@@ -1,0 +1,27 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -64 32 -64 -32
+LINE Normal 0 0 -64 32
+LINE Normal -64 -32 0 0
+LINE Normal -32 -32 -32 -16
+LINE Normal -32 16 -32 32
+WINDOW 0 19 -16 Bottom 2
+WINDOW 3 66 18 Top 2
+SYMATTR Prefix X
+SYMATTR Value OPAx320-Q1
+SYMATTR ModelFile D:\Personal Projects\Pipelined-ADC\Simulations\SampleAndHold\OPAx320-Q1.LIB
+PIN -64 16 LEFT 8
+PINATTR PinName +
+PINATTR SpiceOrder 1
+PIN -64 -16 LEFT 8
+PINATTR PinName -
+PINATTR SpiceOrder 2
+PIN -32 -32 NONE 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 3
+PIN -32 32 NONE 8
+PINATTR PinName VEE
+PINATTR SpiceOrder 4
+PIN 0 0 NONE 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 5
